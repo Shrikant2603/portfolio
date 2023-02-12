@@ -8,6 +8,7 @@ module.exports = {
     fontFamily: {
       funky: ["Great Vibes"],
     },
+    
   },
   plugins: [],
 }
