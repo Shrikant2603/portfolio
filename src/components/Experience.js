@@ -39,7 +39,7 @@ const Experience = () => {
       title: "Tailwind",
       style: "shadow-sky-400",
     },
-    
+
     {
       id: 6,
       src: github,

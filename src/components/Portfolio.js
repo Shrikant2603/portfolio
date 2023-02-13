@@ -11,38 +11,38 @@ const Portfolio = () => {
     {
       id: 1,
       src: bingeIt,
-      code:"https://github.com/Shrikant2603/binge-it",
-      live:"https://binge-it.netlify.app/",
+      code: "https://github.com/Shrikant2603/binge-it",
+      live: "https://binge-it.netlify.app/",
     },
     {
       id: 2,
       src: weather,
-      code:"https://github.com/Shrikant2603/myWeather",
-      live:"https://shrikant2603.github.io/myWeather/",
+      code: "https://github.com/Shrikant2603/myWeather",
+      live: "https://shrikant2603.github.io/myWeather/",
     },
     {
       id: 3,
       src: shopIt,
-      code:"https://github.com/Shrikant2603/module-4-test",
-      live:"https://module-4-test.netlify.app/",
+      code: "https://github.com/Shrikant2603/module-4-test",
+      live: "https://module-4-test.netlify.app/",
     },
     {
       id: 4,
       src: codeIt,
-      code:"https://github.com/Shrikant2603/code-it",
-      live:"https://code-it-editor.netlify.app/",
+      code: "https://github.com/Shrikant2603/code-it",
+      live: "https://code-it-editor.netlify.app/",
     },
     {
       id: 5,
       src: auth,
-      code:"https://github.com/Shrikant2603/code-it",
-      live:"https://jan-contest-3.netlify.app/",      
+      code: "https://github.com/Shrikant2603/code-it",
+      live: "https://jan-contest-3.netlify.app/",
     },
     {
       id: 6,
       src: calculator,
-      code:"https://github.com/Shrikant2603/Calculator",
-      live:"https://shrikant2603.github.io/Calculator/",      
+      code: "https://github.com/Shrikant2603/Calculator",
+      live: "https://shrikant2603.github.io/Calculator/",
     },
   ];
 
@@ -60,7 +60,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src,code,live }) => (
+          {portfolios.map(({ id, src, code, live }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -68,10 +68,16 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(code, "_blank")}>
+                <button
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  onClick={() => window.open(code, "_blank")}
+                >
                   Code
                 </button>
-                <button  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(live, "_blank")}>
+                <button
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  onClick={() => window.open(live, "_blank")}
+                >
                   Live
                 </button>
               </div>
