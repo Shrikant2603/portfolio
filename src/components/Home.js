@@ -15,7 +15,7 @@ const Home = () => {
             I am a Frontend Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a Web Developer enthusiast. Curruntly working with Frontend part, and doing some projects using tech stacks such as React, Bootstrap, Tailwind Css.
+          I am a frontend developer with a passion for web development. I specialize in React, Bootstrap, and Tailwind CSS. My portfolio website showcases my skills and dedication to the field. Always eager for new challenges.
           </p>
           <div>
             <Link
