@@ -3,7 +3,7 @@ import bingeIt from "../assets/portfolio/binge-it.jpg";
 import weather from "../assets/portfolio/myWeather.jpg";
 import shopIt from "../assets/portfolio/shop-it.jpg";
 import codeIt from "../assets/portfolio/code-it.jpg";
-import auth from "../assets/portfolio/auth.jpg";
+import quizzy from "../assets/portfolio/quizzy.jpg";
 import calculator from "../assets/portfolio/calculator.jpg";
 
 const Portfolio = () => {
@@ -22,9 +22,9 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: shopIt,
-      code: "https://github.com/Shrikant2603/module-4-test",
-      live: "https://module-4-test.netlify.app/",
+      src: quizzy,
+      code: "https://github.com/Shrikant2603/quizzy",
+      live: "quizzy-by-shrikant.netlify.app",
     },
     {
       id: 4,
@@ -34,9 +34,9 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: auth,
-      code: "https://github.com/Shrikant2603/code-it",
-      live: "https://jan-contest-3.netlify.app/",
+      src: shopIt,
+      code: "https://github.com/Shrikant2603/module-4-test",
+      live: "https://module-4-test.netlify.app/",
     },
     {
       id: 6,
