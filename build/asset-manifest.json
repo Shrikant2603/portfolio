@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7b61fdcc.css",
-    "main.js": "/static/js/main.024dc6de.js",
+    "main.js": "/static/js/main.dc6d150a.js",
     "static/media/myImage.png": "/static/media/myImage.5523c904307b93fad1d8.png",
     "static/media/binge-it.jpg": "/static/media/binge-it.2c19e5121f761e346f8b.jpg",
     "static/media/shop-it.jpg": "/static/media/shop-it.2d0d515b779e41fb9ce1.jpg",
@@ -17,10 +17,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.7b61fdcc.css.map": "/static/css/main.7b61fdcc.css.map",
-    "main.024dc6de.js.map": "/static/js/main.024dc6de.js.map"
+    "main.dc6d150a.js.map": "/static/js/main.dc6d150a.js.map"
   },
   "entrypoints": [
     "static/css/main.7b61fdcc.css",
-    "static/js/main.024dc6de.js"
+    "static/js/main.dc6d150a.js"
   ]
 }

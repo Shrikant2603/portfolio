@@ -24,7 +24,7 @@ const Portfolio = () => {
       id: 3,
       src: quizzy,
       code: "https://github.com/Shrikant2603/quizzy",
-      live: "quizzy-by-shrikant.netlify.app",
+      live: "https://quizzy-by-shrikant.netlify.app/",
     },
     {
       id: 4,
