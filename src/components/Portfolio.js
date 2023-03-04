@@ -4,7 +4,7 @@ import weather from "../assets/portfolio/myWeather.jpg";
 import shopIt from "../assets/portfolio/shop-it.jpg";
 import codeIt from "../assets/portfolio/code-it.jpg";
 import quizzy from "../assets/portfolio/quizzy.jpg";
-import calculator from "../assets/portfolio/calculator.jpg";
+import codeItPro from "../assets/portfolio/code-it pro.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -16,9 +16,9 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: weather,
-      code: "https://github.com/Shrikant2603/myWeather",
-      live: "https://shrikant2603.github.io/myWeather/",
+      src: codeItPro,
+      code: "https://github.com/Shrikant2603/code-it-pro",
+      live: "https://code-it-pro.netlify.app/",
     },
     {
       id: 3,
@@ -34,15 +34,15 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: shopIt,
-      code: "https://github.com/Shrikant2603/module-4-test",
-      live: "https://module-4-test.netlify.app/",
+      src: weather,
+      code: "https://github.com/Shrikant2603/myWeather",
+      live: "https://shrikant2603.github.io/myWeather/",
     },
     {
       id: 6,
-      src: calculator,
-      code: "https://github.com/Shrikant2603/Calculator",
-      live: "https://shrikant2603.github.io/Calculator/",
+      src: shopIt,
+      code: "https://github.com/Shrikant2603/module-4-test",
+      live: "https://module-4-test.netlify.app/",
     },
   ];
 
